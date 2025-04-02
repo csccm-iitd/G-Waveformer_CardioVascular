@@ -2,8 +2,7 @@
 This repository implements the Geometry-Adaptive Waveformer, a novel framework for predicting blood flow dynamics in complex cardiovascular geometries. The method addresses challenges posed by irregular anatomical domains and the dynamic nature of hemodynamic responses, combining geometric adaptation with temporal modeling.
 
 1. Install python packages pytorch, numpy, pandas, matplotlib, einops, torch_scatter, torch_cluster, etc.
-
-2. There are two separate folders containing data sets and implementation codes.
-
-3. Add the data (generated data) path to load the data and use the run(Main.py) file to execute the program.
+2. The folder Source Code contains implementation codes.
+3. The data is available in the [Link Text](URL)
+4. Add the path to the data files (in `.npy` format) and run `Main.py` to execute the program.
    
