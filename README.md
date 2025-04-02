@@ -1,5 +1,5 @@
 # Geometry adaptive waveformer for modeling cardiovascular dynamics
-This repository implements the Geometry-Adaptive Waveformer, a novel framework for predicting blood flow dynamics in complex cardiovascular geometries. The method addresses challenges posed by irregular anatomical domains and the dynamic nature of hemodynamic responses, combining geometric learning with temporal modeling.
+This repository implements the Geometry-Adaptive Waveformer, a novel framework for predicting blood flow dynamics in complex cardiovascular geometries. The method addresses challenges posed by irregular anatomical domains and the dynamic nature of hemodynamic responses, combining geometric adaptation with temporal modeling.
 
 1. Install python packages pytorch, numpy, pandas, matplotlib, einops, torch_scatter, torch_cluster, etc.
 
