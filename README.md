@@ -1,12 +1,9 @@
-# Geometry adaptive waveformer for modelling cardio-vascular dynamics
-The repository provides Python codes for the numerical examples illustrated in the paper ‘Waveformer for modelling dynamical systems’
-Please go through the paper to understand the implemented algorithm.
-Requirements:
+# Geometry adaptive waveformer for modeling cardiovascular dynamics
+This repository implements the Geometry-Adaptive Waveformer, a novel framework for predicting blood flow dynamics in complex cardiovascular geometries. The method addresses challenges posed by irregular anatomical domains and the dynamic nature of hemodynamic responses, combining geometric learning with temporal modeling.
 
-1. Install python package pytorch, numpy, pandas, matplotlib, einops etc.
+1. Install python packages pytorch, numpy, pandas, matplotlib, einops, torch_scatter, torch_cluster, etc.
 
-2. There are four separate folders containing data sets (data generation codes) and implementation codes, where the folders are named as
-   ‘Burgers diffusin dynamics’, ‘KS equation’, ‘Allen-Cahn equation’ and Naviers stokes equation.
+2. There are three separate folders containing data sets, trained models, and implementing codes.
 
-3. Add the data (generated data) path to load the data and use the run(Training2) file to execute program.
+3. Add the data (generated data) path to load the data and use the run(Main.py) file to execute the program.
    
